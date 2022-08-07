@@ -2,9 +2,6 @@ name: List Merged PRs
 on:
   pull_request:
     types: [opened, synchronize]
-    branches: 
-      - main
-      - dev
 jobs:
   example:
     name: Release management comment
